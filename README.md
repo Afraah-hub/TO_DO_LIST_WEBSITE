@@ -1,120 +1,180 @@
+# ✨ Opus - Modern Task Manager
+
+<p align="center">
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-success?style=for-the-badge)
+![Dark Mode](https://img.shields.io/badge/Dark%20Mode-Supported-purple?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
+</p>
+
+<p align="center">
+A sleek, modern, and fully responsive task management application built with HTML, CSS, and Vanilla JavaScript.
+</p>
+
+---
+
+## 📑 Table of Contents
+
+- [Overview](#-overview)
+- [Features](#-features)
+- [Screenshots](#-screenshots)
+- [Technology Stack](#-technology-stack)
+- [Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+- [Keyboard Shortcuts](#-keyboard-shortcuts)
+- [Data Storage](#-data-storage)
+- [Future Enhancements](#-future-enhancements)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Author](#-author)
+
+---
+
+## 🚀 Overview
+
+**Opus Task Manager** is a beautifully designed productivity application that helps users organize, prioritize, and track tasks efficiently.
+
+The application includes task categorization, priority management, due-date tracking, progress monitoring, drag-and-drop organization, dark mode support, and local storage persistence.
+
+---
+
+## ✨ Features
+
+### ✅ Task Management
+- Create new tasks
+- Edit existing tasks
+- Delete tasks
+- Mark tasks as completed
+- Drag-and-drop task reordering
+
+### 📂 Categories
+- 💼 Work
+- 📚 Study
+- ❤️ Personal
+- 🏋️ Health
+- 💰 Finance
+
+### 🎯 Priority Levels
+- 🔴 High
+- 🟠 Medium
+- 🔵 Low
+
+### 📅 Smart Scheduling
+- Due dates
+- Due times
+- Overdue task tracking
+- Upcoming task tracking
+- Due Today view
+
+### 📊 Analytics Dashboard
+- Total Tasks
+- Completed Tasks
+- Overdue Tasks
+- Due Today Tasks
+- Overall Progress Percentage
+
+### 🎨 User Experience
+- Dark & Light Mode
+- Smooth Animations
+- Responsive Design
+- Modern UI Components
+- Confetti Celebration Effects
+- Toast Notifications
+
+### 🔎 Productivity Tools
+- Search Tasks
+- Category Filtering
+- Priority Filtering
+- Multiple Sorting Options
+
+---
 
 
-✅ Opus - Modern Task Manager
+## 🛠 Technology Stack
 
-A sleek, feature-rich, and responsive To-Do List web application designed to help users organize tasks efficiently with categories, priorities, due dates, progress tracking, and an elegant modern interface.
+| Technology | Purpose |
+|------------|----------|
+| HTML5 | Structure |
+| CSS3 | Styling |
+| JavaScript (ES6+) | Functionality |
+| Font Awesome | Icons |
+| Google Fonts | Typography |
+| Local Storage API | Data Persistence |
 
-✨ Features
-📝 Create, edit, and delete tasks
-✅ Mark tasks as completed
-🎯 Priority levels (High, Medium, Low)
-📂 Task categorization:
-Work
-Study
-Personal
-Health
-Finance
-📅 Due date and time management
-🔍 Real-time task search
-📊 Progress tracking dashboard
-📈 Quick statistics overview
-🏷 Category and priority filters
-⚡ Drag-and-drop task reordering
-🌙 Dark mode and ☀️ Light mode support
-📱 Fully responsive design
-⌨️ Keyboard shortcuts for faster productivity
-🎉 Completion celebration animation
-💾 Local Storage support (tasks are saved automatically)
-🚀 Technologies Used
-HTML5
-CSS3
-JavaScript (Vanilla JS)
-Font Awesome Icons
-Google Fonts
-📸 Preview
-Dashboard Features
-Sidebar navigation
-Task statistics
-Search and sorting
-Category filters
-Priority filters
-Progress monitoring
-Task Management
-Add new tasks
-Edit existing tasks
-Set due dates and times
-Assign categories
-Set priorities
-Drag-and-drop organization
-⌨️ Keyboard Shortcuts
-Shortcut	ActionN	Create New Task
-F	Focus Search Bar
-Esc	Close Modal
-Backspace	Clear Completed Tasks
-📂 Project Structure
+---
+
+## 📂 Project Structure
+
+```text
 Opus-Task-Manager/
 │
 ├── index.html
 ├── README.md
+│
+├── images/
+│   ├── dashboard.png
+│   ├── mobile-view.png
+│   └── add-task.png
+│
 └── assets/
+```
 
+---
 
-The project is built as a single-page application with HTML, CSS, and JavaScript integrated into one file for simplicity and easy deployment.
+## ⚡ Getting Started
 
-💾 Data Storage
+### Clone the Repository
 
-Tasks and theme preferences are stored using the browser's Local Storage.
-
-No database setup is required.
-
-🎨 UI Highlights
-Elegant modern design
-Smooth animations
-Interactive statistics cards
-Beautiful category color coding
-Responsive mobile experience
-Glassmorphism-inspired visual components
-Dark/Light theme switching
-🔧 Installation
-Clone the repository:
+```bash
 git clone https://github.com/your-username/opus-task-manager.git
+```
 
-Navigate to the project folder:
+### Navigate to the Project Folder
+
+```bash
 cd opus-task-manager
+```
 
-Open the HTML file in your browser:
+### Launch the Application
+
+Simply open the HTML file in your browser:
+
+```bash
 index.html
+```
 
+Or use VS Code Live Server:
 
-Or simply double-click the HTML file.
+```bash
+Right Click → Open with Live Server
+```
 
-🌐 Live Demo
+---
 
-Add your deployed website link here:
+## ⌨️ Keyboard Shortcuts
 
-https://your-demo-link.com
+| Shortcut | Action |
+|-----------|-----------|
+| N | Create New Task |
+| F | Focus Search |
+| Esc | Close Modal |
+| Backspace | Clear Completed Tasks |
 
-Future Enhancements
-User authentication
-Cloud synchronization
-Multiple task boards
-Calendar integration
-Reminder notifications
-Task sharing and collaboration
-Export and import tasks
-🤝 Contributing
+---
 
-Contributions, issues, and feature requests are welcome.
+## 💾 Data Storage
 
-Fork the project
-Create your feature branch
-Commit your changes
-Push to the branch
-Open a Pull Request
-📄 License
+The application uses the browser's **Local Storage API** for persisting:
 
-This project is licensed under the MIT License.
+- Tasks
+- Task Status
+- Task Categories
+- Priorities
+- Due Dates
+- Theme Preferences
 
-👨‍💻 Author
-
-Afraah Akbar
+No external database or backend
